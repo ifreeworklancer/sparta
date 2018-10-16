@@ -1,0 +1,40 @@
+.fp-viewing-header-banner {
+
+    #app-header {
+
+        .logo {
+
+            &-item {
+
+                &--white {
+                    display: block;
+                }
+
+                &--dark {
+                    display: none;
+                }
+            }
+        }
+
+        .menu-list {
+
+            &-item {
+
+                &__link {
+                    color: #fff;
+                }
+
+                &::before {
+                    background: #fff;
+                }
+            }
+        }
+
+        .burger-menu {
+
+            .line {
+                background: #fff;
+            }
+        }
+    }
+}

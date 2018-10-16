@@ -1,0 +1,30 @@
+#header-banner-section {
+    background: url('../images/bg/header-bg.jpg') 50% 50% /cover no-repeat;
+}
+
+.header-banner-item {
+    padding-left: 170px;
+    background: rgba(#000, .9);
+
+    @media (max-width: map_get($grid-breakpoints, md)) {
+        padding: 0 15px;
+    }
+
+    .section-title {
+        margin-bottom: -70px;
+
+        @media (max-width: map_get($grid-breakpoints, md)) {
+            margin-bottom: 0;
+        }
+    }
+
+    &-description {
+        padding-left: 150px;
+        max-width: 490px;
+
+        
+        @media (max-width: map_get($grid-breakpoints, md)) {
+            padding-left: 0;
+        }
+    }
+}

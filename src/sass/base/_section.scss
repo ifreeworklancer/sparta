@@ -1,0 +1,41 @@
+section {
+    position: relative;
+
+    height: auto !important;
+
+    .fp-tableCell {
+        display: block;
+    }
+
+    .container-fluid {
+        height: 100%;
+    }
+
+    &.fp-section.fp-table {
+        display: block !important;
+        height: auto !important;
+    }
+}
+
+.section-title {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    text-transform: uppercase;
+
+    &__first-letter {
+        font-size: 150px;
+    }
+
+    &--start {
+        align-items: flex-start;
+    }
+
+    &--center {
+        align-items: center;
+    }
+
+    &--end {
+        align-items: flex-end;
+    }
+}

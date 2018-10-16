@@ -1,0 +1,30 @@
+#app-header {
+    @extend %pos;
+    bottom: auto;
+    position: fixed;
+    padding: 60px 120px;
+
+    @media (max-width: map_get($grid-breakpoints, md)) {
+        padding: 15px;
+
+        .container-fluid {
+            overflow: visible !important;
+        }
+    }
+
+    .container-fluid {
+        overflow: hidden;
+    }
+}
+
+.logo {
+    width: 200px;
+    height: 110px;
+
+    &-item {
+
+        &--white {
+            display: none;
+        }
+    }
+}
