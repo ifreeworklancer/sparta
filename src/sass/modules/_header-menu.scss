@@ -1,6 +1,6 @@
-.fp-viewing-header-banner {
+#app-header {
 
-    #app-header {
+    &.light {
 
         .logo {
 
@@ -34,6 +34,23 @@
 
             .line {
                 background: #fff;
+            }
+        }
+    }
+
+    &.dark {
+
+        .menu-list {
+
+            &-item {
+
+                &__link {
+                    color: $primary;
+                }
+
+                &::before {
+                    background: $primary;
+                }
             }
         }
     }

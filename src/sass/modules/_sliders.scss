@@ -1,0 +1,106 @@
+.side-slider {
+    position: absolute;
+
+    .flickity-page-dots {
+        left: 0 !important;
+        bottom: -40px;
+        width: auto !important;
+
+        li {
+            width: 20px;
+            height: 20px;
+            border-radius: 0;
+            border: 4px solid;
+            background: $dark !important;
+            margin: 0 20px !important;
+            opacity: 1 !important;
+            transition: .5s;
+
+            @media (max-width: map_get($grid-breakpoints, md)) {
+                display: none;
+            }
+
+            &.is-selected {
+                margin: 0 100px !important;
+                background: #fff !important;              
+            }
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            transform: translateY(-50%);
+            background: $dark;
+            height: 3px;
+            z-index: -3;
+        }
+    }
+
+    &-item {
+        @extend %pos;
+        z-index: -100;
+        width: 100%;
+        height: 650px;
+
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+            height: 250px;
+        }
+
+        &-img {
+            @extend %pos;
+            @extend %img;
+        }
+    }
+}
+
+.slider-nav-num {
+    position: relative;
+    display: flex;
+    top: 15px;
+    left: -60px;
+
+    @media (max-width: map_get($grid-breakpoints, md)) {
+        display: none;
+    }
+
+    &-item {
+        position: relative;
+        padding: 10px 5px 0;
+        font-size: 60px;
+        color: #fff;
+        opacity: .5;
+        transition: .5s;
+        font-weight: 700;
+        pointer-events: none;
+        user-select: none;
+
+        &.active {
+            padding: 0 25px;
+            opacity: 1;
+            font-size: 110px;
+            line-height: 1.2;
+
+            &::after {
+                transform: scale(0);
+            }
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: #fff;
+            transition: .5s;
+        }
+
+        &::before {
+            content: '0';
+        }
+    }
+}

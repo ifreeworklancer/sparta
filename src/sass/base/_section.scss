@@ -1,20 +1,5 @@
 section {
     position: relative;
-
-    height: auto !important;
-
-    .fp-tableCell {
-        display: block;
-    }
-
-    .container-fluid {
-        height: 100%;
-    }
-
-    &.fp-section.fp-table {
-        display: block !important;
-        height: auto !important;
-    }
 }
 
 .section-title {
@@ -25,6 +10,8 @@ section {
 
     &__first-letter {
         font-size: 150px;
+        line-height: .85;
+        margin-right: -10px;
     }
 
     &--start {

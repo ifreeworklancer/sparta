@@ -1,6 +1,5 @@
         </main>
 
-    </div>
 
 
 <!-- Script -->

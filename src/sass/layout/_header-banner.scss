@@ -1,17 +1,25 @@
-#header-banner-section {
+#header-banner {
+    height: 100vh;
+    max-height: 1000px;
     background: url('../images/bg/header-bg.jpg') 50% 50% /cover no-repeat;
 }
 
 .header-banner-item {
+    position: relative;
     padding-left: 170px;
     background: rgba(#000, .9);
+    @include ondecor-border(#fff);
 
     @media (max-width: map_get($grid-breakpoints, md)) {
         padding: 0 15px;
     }
 
+    .decor {
+        @include indecor-border(#fff);
+    }
+
     .section-title {
-        margin-bottom: -70px;
+        margin-bottom: -45px;
 
         @media (max-width: map_get($grid-breakpoints, md)) {
             margin-bottom: 0;
@@ -22,9 +30,14 @@
         padding-left: 150px;
         max-width: 490px;
 
-        
+
         @media (max-width: map_get($grid-breakpoints, md)) {
             padding-left: 0;
         }
+    }
+
+    &::after {
+        left: 0;
+        right: 60%;
     }
 }

@@ -1,5 +1,6 @@
 @import "config/variables";
 @import "config/placeholder";
+@import "config/mixin";
 
 @import "~bootstrap/scss/bootstrap";
 
@@ -10,6 +11,10 @@
 
 @import "modules/menu";
 @import "modules/header-menu";
+@import "modules/sliders";
 
 @import "layout/app-header";
 @import "layout/header-banner";
+@import "layout/side";
+@import "layout/teams";
+@import "layout/services";

@@ -1,8 +1,9 @@
 <!-- Header-banner -->
-<section id="header-banner-section" data-anchor="header-banner">
-    <div class="container-fluid p-0 pb-5 d-flex d-flex justify-content-start align-items-end">
+<section id="header-banner" data-color="light">
+    <div class="container-fluid h-100 p-0 pb-5 d-flex d-flex justify-content-start align-items-end">
         <div class="col-sm-8 col-xl-6 p-0">
             <div class="header-banner-item">
+                <div class="decor"></div>
                 <h2 class="section-title section-title--center">
                     <span class="section-title__first-letter font-weight-normal">A</span>
                     РХИТЕКТУРА
