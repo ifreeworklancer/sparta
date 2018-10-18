@@ -7,6 +7,7 @@ section {
     display: flex;
     justify-content: start;
     text-transform: uppercase;
+    user-select: none;
 
     &__first-letter {
         font-size: 150px;

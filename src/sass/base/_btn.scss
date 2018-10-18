@@ -40,7 +40,7 @@
         .decor {
 
             &::before {
-                left: 0;
+                right: 0;
             }
 
             &::after {
@@ -49,7 +49,7 @@
         }
 
         &::before {
-            bottom: 0;
+            top: 0;
         }
 
         &::after {

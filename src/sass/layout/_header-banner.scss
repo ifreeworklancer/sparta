@@ -14,8 +14,35 @@
         padding: 0 15px;
     }
 
-    .decor {
+    .decoration {
         @include indecor-border(#fff);
+        
+        &::after {
+            left: -100px;
+        }
+    }
+
+    &.is-focus {
+
+        .decoration {
+
+            &::before {
+                right: 0;
+            }
+        }
+
+        &::before {
+            top: 0;
+        }
+
+        &::after {
+            left: 0;
+        }
+    }
+
+    .btn {
+        right: -1px;
+        bottom: -1px;
     }
 
     .section-title {
@@ -34,10 +61,5 @@
         @media (max-width: map_get($grid-breakpoints, md)) {
             padding-left: 0;
         }
-    }
-
-    &::after {
-        left: 0;
-        right: 60%;
     }
 }

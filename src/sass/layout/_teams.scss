@@ -9,6 +9,7 @@
 
     .section-title {
         padding-left: 70px;
+        padding-bottom: 100px;
 
         &__first-letter {
             margin-right: 0;
@@ -45,11 +46,11 @@
                         width: 50%;
 
                         &--height {
-                            padding-top: 340px;
+                            padding-top: 290px;
                         }
 
                         &--normal {
-                            padding-top: 290px;
+                            padding-top: 240px;
                         }
                     }
                 }
@@ -64,11 +65,11 @@
                         }
 
                         &--height {
-                            padding-top: 410px;
+                            padding-top: 360px;
                         }
 
                         &--normal {
-                            padding-top: 370px;
+                            padding-top: 310px;
                         }
                     }
                 }
@@ -85,6 +86,7 @@
     &-img {
         @extend %pos;
         @extend %img;
+        background-position: 50% 0;
         z-index: -3;
         transition: 1s;
     }
@@ -129,7 +131,7 @@
     }
 
     &--main {
-        padding-top: 560px;
+        padding-top: 510px;
     }
 
     @media (max-width: map_get($grid-breakpoints, sm)) {
@@ -180,6 +182,13 @@
         padding-left: 15px;
     }
 
+    &.is-focus {
+
+        &::before {
+            right: 50%;
+        }
+    }
+
     &-text {
         max-width: 390px;
         font-size: 18px;
@@ -189,8 +198,9 @@
         content: '';
         @extend %pos;
         top: auto;
-        right: 60%;
+        right: 100%;
         height: 4px;
         background: $dark;
+        transition: .5s;
     }
 }

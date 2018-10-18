@@ -35,7 +35,7 @@
             </div>
             <div class="col-sm-5">
                 <div class="footer-map">
-                    <div class="footer-map-img" style="background-image: url('images/content/footer/footer-map.jpg');"></div>
+                    <div class="footer-map-img" style="background-image: url('../images/content/footer/footer-map.jpg');"></div>
                 </div>
             </div>
         </div>
@@ -112,7 +112,7 @@
 
 
 <!-- Script -->
-<script src="dist/app.js"></script>
+<script src="../dist/app.js"></script>
 </body>
 
 </html>

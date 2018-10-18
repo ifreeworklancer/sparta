@@ -8,19 +8,6 @@
     overflow: hidden;
     transition: 1s;
 
-    @media (max-width: map_get($grid-breakpoints, xl)) {
-        position: fixed;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        background: $primary;
-        color: #fff;
-    }
-
     &.active {
         transform: translate(0, -50%);
     }
@@ -94,8 +81,8 @@
 
     .line {
         width: 30px;
-        height: 4px;
-        margin-bottom: 9px;
+        height: 3px;
+        margin-bottom: 5px;
         background: $dark;
         transition: .5s;
 

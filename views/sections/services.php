@@ -48,7 +48,7 @@
             </div>
             <div class="col-sm-4 col-lg-5 text-dark">
                 <div class="services-item h-100 d-flex flex-column justify-content-between">
-                    <h2 class="section-title section-title--end justify-content-center justify-content-sm-start mb-5">
+                    <h2 class="section-title section-title--services section-title--end justify-content-center justify-content-sm-start mb-5">
                         <span class="section-title__first-letter">У</span>
                         СЛУГИ
                     </h2>

@@ -9,7 +9,7 @@
         Sparta
     </title>
 
-    <link rel="stylesheet" href="dist/app.css">
+    <link rel="stylesheet" href="../dist/app.css">
 </head>
 
 <body>
@@ -49,15 +49,15 @@
 
 
     <!-- Header Main -->
-    <header id="app-header" class="light">
+    <header id="app-header" class="dark">
         <div class="container-fluid position-relative d-flex justify-content-between align-items-center">
 
             <div class="logo">
                 <a href="/" class="logo-item logo-item--white">
-                    <img src="images/icon/logo/logo-white.png" alt="logo">
+                    <img src="../images/icon/logo/logo-white.png" alt="logo">
                 </a>
                 <a href="/" class="logo-item logo-item--dark">
-                    <img src="images/icon/logo/logo-dark.png" alt="logo">
+                    <img src="../images/icon/logo/logo-dark.png" alt="logo">
                 </a>
             </div>
 

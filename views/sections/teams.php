@@ -1,9 +1,9 @@
 <!-- Teams-banner -->
 <section id="teams" data-color="dark">
     <div class="container-fluid text-dark">
-        <div class="row flex-column flex-xl-row align-items-center">
+        <div class="row flex-column flex-xl-row align-items-center align-items-xl-end">
             <div class="col-sm-3 p-0">
-                <h2 class="section-title section-title--end justify-content-start">
+                <h2 class="section-title section-title--teams section-title--end justify-content-start">
                     <span class="section-title__first-letter">К</span>
                     ОМАНДА
                 </h2>

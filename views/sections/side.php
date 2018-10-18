@@ -3,14 +3,14 @@
     <div class="container-fluid text-dark d-flex flex-column justify-content-between">
         <div class="row">
             <div class="col-12">
-                <h2 class="section-title section-title--end justify-content-center">
+                <h2 class="section-title section-title--side section-title--end justify-content-center">
                     <span class="section-title__first-letter">И</span>
                     ННОВАЦИОННЫЙ ПОДХОД
                 </h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-11 ml-auto mr-0 p-0">
+            <div class="col-sm-10 ml-auto mr-0 p-0">
                 <div class="side-slider">
                     <div class="side-slider-item">
                         <div class="side-slider-item-img" style="background-image: url('images/content/side/side-item-1.jpg');"></div>
